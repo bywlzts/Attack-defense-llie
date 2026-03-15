@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python basicsr/train.py --opt Options/RetinexMamba_LOL_v1.yml
