@@ -12,11 +12,13 @@
 Limited illumination often causes severe physical noise and detail degradation in images. Existing Low-Light Image Enhancement (LLIE)  methods frequently treat the enhancement process as a blind black-box mapping, overlooking the physical noise transformation during imaging, leading to suboptimal performance. To address this, we propose a novel LLIE approach, conceptually formulated as a physics-based attack and display-adaptive defense paradigm. Specifically, on the attack side, we establish a physics-based Degradation Synthesis (PDS) pipeline. Unlike standard data augmentation, PDS explicitly models Image Signal Processor (ISP) inversion to the RAW domain, injects physically plausible photon and read noise, and re-projects the data to the sRGB domain. This generates high-fidelity training pairs with explicitly parameterized degradation vectors, effectively simulating realistic attacks on clean signals. On the defense side, we construct a dual-layer fortified system. A noise predictor estimates degradation parameters from the input sRGB image. These estimates guide a degradation-aware Mixture of Experts (DA-MoE), which dynamically routes features to experts specialized in handling specific noise intensities. Furthermore, we introduce an Adaptive Metric Defense (AMD) mechanism, dynamically calibrating the feature embedding space based on noise severity, ensuring robust representation learning under severe degradation. Extensive experiments demonstrate that our approach offers significant plug-and-play performance enhancement for existing benchmark LLIE methods, effectively suppressing real-world noise while preserving structural fidelity.
 
 ## 2. Motivation
-
+![Motivation](https://github.com/user-attachments/assets/88747823-36eb-45dc-8bda-29e7e35077cf)
 
 ## 3. Network
-
+![Network](https://github.com/user-attachments/assets/1c66f10f-1ad4-44b3-a9be-c3cc41c566e6)
 
 ## 4. Performance
+![Performance](https://github.com/user-attachments/assets/c0bc9d14-3fdc-4ca4-b80c-9b9dba258cde)
+![Performance](https://github.com/user-attachments/assets/1b6ae014-038e-40ac-b193-5870c59fd4a4)
 
 
