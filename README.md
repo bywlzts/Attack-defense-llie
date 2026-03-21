@@ -1,4 +1,4 @@
-# A Physically-Grounded Attack and Adaptive Defense Framework for Real-World Low-Light Image Enhancement
+# A Physically-Grounded Attack and Adaptive Defense Framework for Real-World Low-Light Image Enhancement [[PDF](https://arxiv.org/abs/2603.14304)]
 
 - *Tongshun Zhang, Pingping Liu, Yuqing Lei, Zixuan Zhong, Qiuzhan Zhou, Zhiyuan Zha*
 - *College of Computer Science and Technology, Jilin University*
