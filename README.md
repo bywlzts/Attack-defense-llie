@@ -21,6 +21,6 @@ Limited illumination often causes severe physical noise and detail degradation i
 ![Performance](https://github.com/user-attachments/assets/c0bc9d14-3fdc-4ca4-b80c-9b9dba258cde)
 ![Performance](https://github.com/user-attachments/assets/1b6ae014-038e-40ac-b193-5870c59fd4a4)
 
-## 5. Pre-trained Models and Outputs
+## 5. Pre-trained Models
 [Google Drive](https://drive.google.com/drive/folders/181HefYj7_gDYx7pEYttzV6XLMc7xwrcz?usp=sharing).
 
